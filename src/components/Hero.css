@@ -4,6 +4,7 @@
   overflow: hidden;
   align-content: center;
   justify-content: center;
+  z-index: 1;
 }
 
 .hero-image {
