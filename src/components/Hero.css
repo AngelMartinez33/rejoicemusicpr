@@ -2,8 +2,8 @@
   position: relative;
   width: 100%;
   overflow: hidden;
-  align-content: center;
-  justify-content: center;
+  /* align-content: center;
+  justify-content: center; */
   z-index: 1;
   margin-top: 70px;
 }
@@ -49,4 +49,22 @@
 
 .hero-cta-button:hover {
   background-color: #ff9900;
+}
+
+@media (max-width: 490px) {
+  .hero-container {
+    margin-top: 25px;
+  }
+
+  .hero-title {
+    font-size: 1rem;
+  }
+
+  .hero-subtitle{
+    display: none;
+  }
+
+  .hero-cta-button {
+    padding: 0.5rem 0.5rem;
+  }
 }

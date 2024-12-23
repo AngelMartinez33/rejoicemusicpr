@@ -57,6 +57,7 @@ nav {
     }
   
     ul {
+      display: none;
       flex-direction: column;
       gap: 1rem;
       margin: 0;
